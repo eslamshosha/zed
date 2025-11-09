@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZED</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- header section -->
+    <header>
+      <div class="header-cont">
+        <div class="top-header">
+          <div class="container">
+            <div class="nav-header">
+              <figure class="img-logo">
+                <a href="#"><img loading="lazy" src="images/logo.svg" /></a>
+              </figure>
+              <div class="navgition">
+                <ul class="big-menu">
+                  <li>
+                    <a href="#" class="active"> الرئيسية </a>
+                  </li>
+                  <li>
+                    <a href="#"> فئات </a>
+                  </li>
+                  <li>
+                    <a href="#"> ازاله</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="search-section">
+                <form class="search-form">
+                  <input
+                    class="search-input"
+                    type="text"
+                    name=""
+                    value=""
+                    placeholder="ابحث عن أي شيء هنا"
+                  />
+                  <button class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="header-icons">
+                <a href="#" class="cart-icon">
+                  <div class="cart-info">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="counter">5</span>
+                  </div>
+                  <span>40.000 د.ك</span>
+                </a>
+                <div class="dropdown cat-anchor">
+                  <div class="user-cont">
+                    <div class="user-img">
+                      <img
+                        loading="lazy"
+                        src="images/profile.jpg"
+                        alt="profile-img"
+                      />
+                      <!-- show icon if no sign in  -->
+                      <!-- <i class="fa-solid fa-user"></i> -->
+                    </div>
+                    <div class="user-info">
+                      <span>أهلًا وسهلًا</span>
+                      <span class="user-anc"
+                        >أحمد سعيد<i class="fa-solid fa-chevron-down"></i
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="dropdown-content">
+                    <a class="cat-drop" href="#">دخول</a>
+                    <a class="cat-drop" href="#">تسجيل جديد </a>
+                  </div>
+                </div>
+
+                <div class="show-icons">
+                  <a class="menu-bars fixall" id="menu-id" href="#!">
+                    <span class="bars open-bars"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-box2"></div>
+        </div>
+      </div>
+    </header>
+    <div class="menu-bar">
+      <div>
+        <a href="#" class="active"
+          ><i class="fa-solid fa-house"></i><span>الرئيسية</span></a
+        >
+      </div>
+      <div>
+        <a href="#"
+          ><i class="fa-solid fa-file-magnifying-glass"></i
+          ><span>الفئات</span></a
+        >
+      </div>
+      <div>
+        <a href="#" class="cart-icon"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+      <div>
+        <a href="#"><i class="fa-solid fa-award"></i><span>الماركات</span></a>
+      </div>
+      <div>
+        <a href="#"><i class="fa-solid fa-user"></i><span>الحساب</span></a>
+      </div>
+    </div>
+    <!-- header section     -->
+    <!-- Start Breadcrumb -->
+    <section class="breadcrumb-sec">
+      <div class="container">
+        <ul class="breadcrumb">
+          <li class="breadcrumb-li">
+            <a href="index.html" class="breadcrumb-a"> الرئيسية </a>
+          </li>
+          <li class="breadcrumb-li">
+            <a href="store.html" class="breadcrumb-a"> الاحذية </a>
+          </li>
+          <li class="breadcrumb-li">
+            <span> حذاء 123 </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Breadcrumb -->
+    <!-- Start Page Content -->
+    <section class="content-section single-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product-imgs-cont">
+              <div class="swiper product-thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="thumb-cont">
+                      <div class="thumb-img">
+                        <img class="" src="images/product2.png" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="thumb-cont">
+                      <div class="thumb-img">
+                        <img class="" src="images/product2.png" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="thumb-cont">
+                      <div class="thumb-img">
+                        <img class="" src="images/product2.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper product-imgs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="single-img-container">
+                      <a
+                        data-fancybox="post"
+                        href="images/product2.png"
+                        class="single-img"
+                      >
+                        <img class="" src="images/product2.png" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="single-img-container">
+                      <a
+                        data-fancybox="post"
+                        href="images/product2.png"
+                        class="single-img"
+                      >
+                        <img class="" src="images/product2.png" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="single-info-container">
+              <h2 class="single-name">حذاء رياضي خاص من ماركة اديداس</h2>
+              <div class="single-prices">
+                <strong class="single-price"> 599ج.م</strong>
+                <span class="single-old-price">650</span>
+              </div>
+              <div class="desc-cont">
+                <div class="product-rate">
+                  <div class="stars" style="--rating: 4.5"></div>
+                  <span>(200)</span>
+                </div>
+                <p class="single-pargh">
+                  حذاء رياضي للجري من ديزيرت F18 برباط للرجالحذاء رياضي للجري من
+                  ديزيرت F18 برباط للرجالحذاء رياضي للجري من ديزيرت F18 برباط
+                  للرجالحذاء رياضي للجري من ديزيرت F18 برباط للرجالحذاء رياضي
+                  للجري من ديزيرت F18 برباط للرجالحذاء رياضي للجري من ديزيرت F18
+                  برباط للرجال
+                </p>
+                <div class="radio-group">
+                  <span class="radio-head"> المقاس : </span>
+                  <div class="check-group">
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">xxl</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">xl</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">l</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">m</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">s</span>
+                        </span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <span class="">
+                          <input type="radio" name="size" />
+                          <span class="check-text">xs</span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="color-group">
+                  <span class="radio-head"> اللون :</span>
+                  <div class="check-group">
+                    <div class="check-width">
+                      <label class="check-label">
+                        <input type="radio" name="color" />
+                        <span
+                          class="checkmark"
+                          style="background-color: red"
+                        ></span>
+                      </label>
+                    </div>
+                    <div class="check-width">
+                      <label class="check-label">
+                        <input type="radio" name="color" />
+                        <span
+                          class="checkmark"
+                          style="background-color: black"
+                        ></span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-options">
+                <button class="item-addToCart">اضف إلى السلة</button>
+                <div class="item-qty single-item-qty">
+                  <a role="button" class="single-qty-control qty-plus">
+                    <i class="fa-light fa-plus"></i>
+                  </a>
+                  <a role="button" class="single-qty-control qty-minus">
+                    <i class="fa-light fa-minus"></i>
+                  </a>
+                  <input
+                    type="number"
+                    class="single-qty-input qty-input"
+                    value="1"
+                    data-max="10"
+                    data-min="1"
+                  />
+                </div>
+              </div>
+              <div class="single-features">
+                <div class="features-box">
+                  <i class="fa-solid fa-comments"></i>
+                  <div class="features-text">
+                    <h5 class="features-h">دعم ٢٤ ساعة</h5>
+                    <span class="features-span">رسائل نصية وسوشيال ميديا</span>
+                  </div>
+                </div>
+                <div class="features-box">
+                  <i class="fa-solid fa-credit-card"></i>
+                  <div class="features-text">
+                    <h5 class="features-h">وسيلة دفع امنة</h5>
+                    <span class="features-span">أمان عند الدفع</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Page Content -->
+    <!-- related section -->
+    <section class="cat-section">
+      <div class="container">
+        <div class="section-head">
+          <h3 class="section-title">منتجات ذات صلة</h3>
+          <div class="slider-btn-cont">
+            <div class="swiper-btn-prev swiper-btn">
+              <i class="fa-regular fa-chevron-right"></i>
+            </div>
+            <div class="swiper-btn-next swiper-btn">
+              <i class="fa-regular fa-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+        <div class="product-slider">
+          <div class="swiper">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product">
+                    <a href="#" class="product-item">
+                      <figrue class="product-img">
+                        <img
+                          loading="lazy"
+                          src="images/cat-img.png"
+                          class="img-fluid"
+                        />
+                      </figrue>
+                      <div class="product-content">
+                        <div class="product-name">Wavy Tee</div>
+                        <div class="price-box">
+                          <span class="price">620 ج.م</span>
+                        </div>
+                        <div class="product-rate">
+                          <div class="stars" style="--rating: 4.5"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main">
+                    <a href="#" class="product-item">
+                      <figrue class="product-img">
+                        <img
+                          loading="lazy"
+                          src="images/cat-img.png"
+                          class="img-fluid"
+                        />
+                      </figrue>
+                      <div class="product-content">
+                        <div class="product-name">Wavy Tee</div>
+                        <div class="price-box">
+                          <span class="price">620 ج.م</span>
+                        </div>
+                        <div class="product-rate">
+                          <div class="stars" style="--rating: 4.5"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main">
+                    <a href="#" class="product-item">
+                      <figrue class="product-img">
+                        <img
+                          loading="lazy"
+                          src="images/cat-img.png"
+                          class="img-fluid"
+                        />
+                      </figrue>
+                      <div class="product-content">
+                        <div class="product-name">Wavy Tee</div>
+                        <div class="price-box">
+                          <span class="price">620 ج.م</span>
+                        </div>
+                        <div class="product-rate">
+                          <div class="stars" style="--rating: 4.5"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main">
+                    <a href="#" class="product-item">
+                      <figrue class="product-img">
+                        <img
+                          loading="lazy"
+                          src="images/cat-img.png"
+                          class="img-fluid"
+                        />
+                      </figrue>
+                      <div class="product-content">
+                        <div class="product-name">Wavy Tee</div>
+                        <div class="price-box">
+                          <span class="price">620 ج.م</span>
+                        </div>
+                        <div class="product-rate">
+                          <div class="stars" style="--rating: 4.5"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="main">
+                    <a href="#" class="product-item">
+                      <figrue class="product-img">
+                        <img
+                          loading="lazy"
+                          src="images/product1.png"
+                          class="img-fluid"
+                        />
+                      </figrue>
+                      <div class="product-content">
+                        <div class="product-name">Wavy Tee</div>
+                        <div class="price-box">
+                          <span class="price">620 ج.م</span>
+                        </div>
+                        <div class="product-rate">
+                          <div class="stars" style="--rating: 4.5"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- related section -->
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <div class="footer-cont">
+          <div class="row">
+            <div class="col-md-3 col-xs-12">
+              <figure class="footer-logo">
+                <a href="#"
+                  ><img loading="lazy" src="images/logo.svg" class="img-fluid"
+                /></a>
+              </figure>
+              <div class="social-info">
+                <div class="">1150 ِ أحمد ماهر</div>
+                <a href="mailto:SUPPORT@ZED.com">SUPPORT@ZED.com</a>
+                <a href="tel:+01063441755">ت / 01063441755</a>
+              </div>
+              <div class="social">
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="social-link">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <div class="nav-foot-cont">
+                <h2 class="nav-foot-header nav-accordion">تصفح حسب المجموعة</h2>
+                <ul class="nav-foot nav-wrap list-unstyled">
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">ملابس JDM </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">هوديس </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">الرقبة المستديرة </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">تي شيرتات </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">اكسسوارات</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <div class="nav-foot-cont">
+                <h2 class="nav-foot-header nav-accordion">خدمة العملاء</h2>
+                <ul class="nav-foot nav-wrap list-unstyled">
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">اتصل بنا</a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">تتبع الطلب </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">سياسة الخصوصية </a>
+                  </li>
+                  <li class="nav-foot-li">
+                    <a href="#" class="nav-foot-link">الأسئلة الشائعة</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <h2 class="footer-head">مدفوعات آمنة ومحمية بنسبة 100٪</h2>
+              <img
+                loading="lazy"
+                src="images/pay.png"
+                alt="pay-method"
+                class="pay-footer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-section">
+        <div class="container">
+          <div class="copy-right">© 2025 ، زيد. كل الحقوق محفوظة.</div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section -->
+    <!-- arrow to top -->
+    <button class="arrow-top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+    <!-- arrow to top -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

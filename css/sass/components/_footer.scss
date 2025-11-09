@@ -4,6 +4,8 @@ footer {
   position: relative;
   background-color: $main;
   margin-top: 100px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
   @include max-991 {
     margin-top: 60px;
   }

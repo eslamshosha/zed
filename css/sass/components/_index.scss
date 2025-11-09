@@ -169,6 +169,7 @@
   @include flexCenter;
   width: 162px;
   height: 52px;
+  border-radius: 12px;
   &:hover {
     color: $white;
     background-color: $hover;
